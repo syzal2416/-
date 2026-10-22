@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   UNI/ATLAS — Найди свой университет
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body data-page="home">
+  <header id="header">
+  </header>
+  <main>
+   <section class="hero">
+    <div class="eyebrow">
+     ОБРАЗОВАТЕЛЬНЫЙ АТЛАС / 2026
+    </div>
+    <h1>
+     Твоё будущее
+     <br/>
+     не знает
+     <em>
+      границ.
+     </em>
+    </h1>
+    <div class="hero-bottom">
+     <p>
+      Исследуй университеты пяти стран, сравнивай возможности и строй свой путь к поступлению.
+     </p>
+     <a aria-label="Перейти к каталогу" class="circle-link" href="#catalog">
+      ↘
+     </a>
+    </div>
+    <div class="hero-number">
+     01 — 05 / COUNTRIES
+    </div>
+   </section>
+   <section class="intro">
+    <span>
+     МИССИЯ ПРОЕКТА
+    </span>
+    <p>
+     Поступление за границу не должно начинаться с пятидесяти открытых вкладок. Здесь главное собрано в одном месте.
+    </p>
+   </section>
+   <section class="catalog section" id="catalog">
+    <div class="section-head">
+     <div>
+      <div class="eyebrow">
+       ИССЛЕДУЙ ВОЗМОЖНОСТИ
+      </div>
+      <h2>
+       Атлас
+       <i>
+        университетов
+       </i>
+      </h2>
+     </div>
+     <span id="count">
+      25 вузов
+     </span>
+    </div>
+    <div class="countries" id="countries">
+    </div>
+    <div class="filters">
+     <label>
+      ПОИСК
+      <input id="search" placeholder="Название или город…" type="search"/>
+     </label>
+     <label>
+      НАПРАВЛЕНИЕ
+      <select id="field">
+       <option value="">
+        Все направления
+       </option>
+      </select>
+     </label>
+     <label>
+      СТОИМОСТЬ (УСЛОВНАЯ)
+      <select id="cost">
+       <option value="">
+        Любая
+       </option>
+       <option>
+        Доступнее
+       </option>
+       <option>
+        Средний
+       </option>
+       <option>
+        Высокий
+       </option>
+      </select>
+     </label>
+     <label>
+      ЯЗЫК
+      <select id="language">
+       <option value="">
+        Любой
+       </option>
+       <option>
+        Английский
+       </option>
+       <option>
+        Французский
+       </option>
+       <option>
+        Немецкий
+       </option>
+       <option>
+        Польский
+       </option>
+       <option>
+        Казахский
+       </option>
+       <option>
+        Русский
+       </option>
+      </select>
+     </label>
+     <button class="reset" id="reset">
+      Сбросить ↻
+     </button>
+    </div>
+    <div class="university-grid" id="cards">
+    </div>
+    <p class="note">
+     Категория стоимости ориентировочная и не заменяет цены конкретной программы. Языки также зависят от программы. Сверяй данные на официальном сайте вуза.
+    </p>
+   </section>
+   <section class="banner">
+    <div class="eyebrow">
+     ПЕРСОНАЛЬНЫЙ МАРШРУТ
+    </div>
+    <h2>
+     Один университет.
+     <br/>
+     <i>
+      Разные пути.
+     </i>
+    </h2>
+    <p>
+     Укажи гражданство и уровень обучения. Мы подстроим подсказки для поступления.
+    </p>
+    <a class="light-button" href="profile.html">
+     Создать профиль ↗
+    </a>
+   </section>
+  </main>
+  <footer id="footer">
+  </footer>
+  <script src="data.js">
+  </script>
+  <script src="app.js">
+  </script>
+ </body>
+</html>

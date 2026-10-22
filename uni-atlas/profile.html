@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Профиль | UNI/ATLAS
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body data-page="profile">
+  <header id="header">
+  </header>
+  <main class="interior">
+   <div class="eyebrow">
+    НАСТРОЙ СВОЙ МАРШРУТ
+   </div>
+   <h1>
+    Твой
+    <em>
+     профиль.
+    </em>
+   </h1>
+   <p class="lead">
+    Эти данные сохраняются только в этом браузере. По ним сайт адаптирует подсказки по поступлению.
+   </p>
+   <form class="profile-form" id="profileForm">
+    <label>
+     Гражданство
+     <select id="citizenship" name="citizenship">
+     </select>
+    </label>
+    <label>
+     Страна проживания
+     <select id="residence" name="residence">
+     </select>
+    </label>
+    <label>
+     Ступень образования
+     <select name="degree">
+      <option value="bachelor">
+       Бакалавриат
+      </option>
+      <option value="master">
+       Магистратура
+      </option>
+     </select>
+    </label>
+    <label>
+     Интересующая область
+     <select name="interest">
+      <option value="">
+       Пока не определилась / определился
+      </option>
+     </select>
+    </label>
+    <button class="primary" type="submit">
+     Сохранить профиль →
+    </button>
+    <p id="profileSaved" role="status">
+    </p>
+   </form>
+   <div class="info-panel">
+    <h3>
+     Как это работает?
+    </h3>
+    <p>
+     Гражданство определяет общую визовую категорию; страна проживания может влиять на место подачи. Диплом и программа определяют академические документы. Автоматическая проверка визового права и актуальных условий здесь пока недоступна.
+    </p>
+   </div>
+  </main>
+  <footer id="footer">
+  </footer>
+  <script src="data.js">
+  </script>
+  <script src="app.js">
+  </script>
+ </body>
+</html>
